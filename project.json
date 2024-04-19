@@ -5,5 +5,18 @@
   "projectType": "application",
   "tags": [],
   "// targets": "to see all targets run: nx show project latest --web",
-  "targets": {}
+  "targets": {
+    "testerionasda": {
+      "executor": "nx:noop",
+      "options": {
+        "blub": "blub"
+      }
+    },
+    "test2222": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "echo test222"
+      }
+    }
+  }
 }

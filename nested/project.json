@@ -1,0 +1,8 @@
+{
+    "name": "nested",
+    "targets": {
+        "test": {
+            "executor": "@nx/vite:test"
+        }
+    }
+}
