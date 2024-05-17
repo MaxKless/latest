@@ -1,0 +1,19 @@
+{
+  "name": "hellolib",
+  "$schema": "../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "hellolib/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/hellolib",
+        "main": "hellolib/src/index.ts",
+        "tsConfig": "hellolib/tsconfig.lib.json",
+        "assets": ["hellolib/*.md"]
+      }
+    }
+  }
+}

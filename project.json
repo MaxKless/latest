@@ -6,7 +6,7 @@
   "tags": [],
   "// targets": "to see all targets run: nx show project latest --web",
   "targets": {
-    "testerionasda": {
+    "testerionasdas": {
       "executor": "nx:noop",
       "options": {
         "blub": "blub"
