@@ -7,12 +7,21 @@
   "targets": {
     "build": {
       "executor": "@nx/js:tsc",
-      "outputs": ["{options.outputPath}"],
+      "outputs": [
+        "{options.outputPath}"
+      ],
       "options": {
         "outputPath": "dist/hello",
         "main": "hello/src/index.ts",
         "tsConfig": "hello/tsconfig.lib.json",
-        "assets": ["hello/*.md"]
+        "assets": [
+          "hello/*.md"
+        ]
+      }
+    },
+    "lint": {
+      "options": {
+        "cwd": "hello"
       }
     }
   }
