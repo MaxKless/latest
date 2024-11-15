@@ -69,5 +69,7 @@
       "inputs": ["production", "^production"]
     }
   },
-  "useLegacyCache": true
+  "useLegacyCache": true,
+  "nxCloudUrl": "http://localhost:4203",
+  "nxCloudId": "673750dd98492454724b7668"
 }
