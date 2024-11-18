@@ -6,7 +6,7 @@
   "tags": [],
   "targets": {
     "fail": {
-      "command": "echo hello - 5 && sleep 15 && exit 1"
+      "command": "echo hello - 6 && sleep 15 && exit 1"
     },
     "build": {
       "executor": "@nx/js:tsc",
