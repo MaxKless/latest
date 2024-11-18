@@ -5,6 +5,9 @@
   "projectType": "library",
   "tags": [],
   "targets": {
+    "fail": {
+      "command": "echo hello & exit 1"
+    },
     "build": {
       "executor": "@nx/js:tsc",
       "outputs": [
