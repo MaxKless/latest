@@ -72,5 +72,5 @@
   "useLegacyCache": true,
   "nxCloudUrl": "http://localhost:4203",
   "nxCloudId": "673750dd98492454724b7668",
-  "bust": 4
+  "bust": 5
 }
