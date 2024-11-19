@@ -70,7 +70,7 @@
     }
   },
   "useLegacyCache": true,
-  "bust": 6,
+  "bust": 7,
   "nxCloudUrl": "http://localhost:4203",
   "nxCloudId": "673b5e5b440b25517c43daf3"
 }
