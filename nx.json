@@ -25,17 +25,10 @@
         "serveStaticTargetName": "serve-static"
       }
     },
-    {
-      "plugin": "@nx/jest/plugin",
-      "options": {
-        "targetName": "test"
-      }
-    },
+    { "plugin": "@nx/jest/plugin", "options": { "targetName": "test" } },
     {
       "plugin": "@nx/eslint/plugin",
-      "options": {
-        "targetName": "lint"
-      },
+      "options": { "targetName": "lint" },
       "include": ["hello/**/*"]
     }
   ],
@@ -48,19 +41,10 @@
         "linter": "eslint",
         "bundler": "vite"
       },
-      "component": {
-        "style": "css"
-      },
-      "library": {
-        "style": "css",
-        "linter": "eslint"
-      }
+      "component": { "style": "css" },
+      "library": { "style": "css", "linter": "eslint" }
     },
-    "@nx/js": {
-      "library": {
-        "publishable": false
-      }
-    }
+    "@nx/js": { "library": { "publishable": false } }
   },
   "targetDefaults": {
     "@nx/js:tsc": {
@@ -71,6 +55,6 @@
   },
   "useLegacyCache": true,
   "bust": 10,
-  "nxCloudUrl": "http://localhost:4203",
-  "nxCloudId": "673b5e5b440b25517c43daf3"
+  "nxCloudUrl": "https://staging.nx.app",
+  "nxCloudId": "673e5abf5d0b45c668b4b11a"
 }
